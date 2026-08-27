@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 
-import logo from "@/assets/asai-logo.jpg.asset.json";
+import logo from "@/assets/asai-logo.jpg";
 import heroImg from "@/assets/hero.jpg";
 import item1 from "@/assets/item-1.jpg";
 import item2 from "@/assets/item-2.jpg";
@@ -135,7 +135,7 @@ function Wordmark({ className = "" }: { className?: string }) {
   return (
     <a href="#topo" className={`flex items-center gap-2.5 ${className}`}>
       <img
-        src={logo.url}
+        src={logo}
         alt="Logo do Asaí Bar"
         width={48}
         height={48}
